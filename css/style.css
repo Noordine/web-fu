@@ -1,0 +1,547 @@
+/*Start Main Rulez*/
+
+body {
+    font-family: arial, tahoma 
+}
+
+.container {
+    width: 75%;
+    margin: auto
+}
+
+.container-big {
+    width: 85%;
+    margin: auto;
+    
+}
+
+.clearfix {clear: both}
+
+/*End Main Rulez*/
+
+/*Start Header*/
+
+.header .slider {
+    background-image: url(../images/slider.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+.header .slider .intro {
+    padding-top: 260px;
+    color: #FFF;
+    text-align: center;
+    
+}
+
+.header .slider .intro h2 {
+    margin: 0 auto;
+    font-size: 40px;
+    width: 550px;
+    border-top: 4px solid #FFF;
+    text-transform: uppercase;
+    border-bottom: 4px solid #FFF;
+    padding: 5px 0
+}
+
+.header .slider .intro button {
+    background: none;
+    color: #FFF;
+    text-transform: uppercase;
+    margin-top: 40px;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #FFF;
+    cursor: pointer
+}
+
+.header .slider .intro button:hover {background:#FFF;color:black}
+
+.header .navbar {
+    background-color: #252F31;
+    color: #FFF;
+    overflow: hidden
+}
+
+.header .navbar h2 {
+    float: left;
+    text-transform: uppercase
+}
+
+.header .navbar h2 span {
+    color: #2ecc71
+}
+
+.header .navbar ul {
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right
+}
+
+.header .navbar ul li {
+    float: left;
+    padding: 10px
+}
+
+.header .navbar ul li a {
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-decoration: none
+}
+
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover {
+    color: #30B576
+}
+
+/*End Header*/
+
+/*Start Features*/
+
+.features {
+    overflow: hidden;
+    padding-top: 60px;
+    padding-bottom: 75px
+}
+
+.features .feat {
+    float: left;
+    width: 33%;
+    height: 150px;
+    border-right: 1px solid #888
+}
+
+.features .feat:last-of-type {border-right: none}
+
+.features .feat h2 {
+    text-transform: uppercase;
+    color: #555;
+    text-align: center
+}
+
+.features .feat p {
+    line-height: 1.7;
+    color: #888;
+    text-align: center;
+    padding: 0 10px 0 10px
+}
+
+/*End Features*/
+
+/*Start About Me*/
+
+.about-me {
+    background-color: #F2F2F2;
+    overflow: hidden;
+}
+
+.about-me .image img {width: 100%}
+
+.about-me .image {
+    float: left;
+    width: 40%
+}
+
+.about-me .info {
+    float: left;
+    width: 60%
+}
+
+.about-me .info h2 {
+    margin: 50px 0 20px 100px;
+    text-transform: uppercase;
+    color: #555
+}
+
+.about-me .info > p {
+    margin: 10px 0 20px 100px;
+
+}
+
+.about-me .info p {
+    line-height: 1.6;
+    color: #888
+}
+
+.about-me .info .hobbies {
+    overflow: hidden;
+    margin:30px 0 0 100px
+}
+
+.about-me .info .hobbies .content {
+    float: left;
+    width: 50%;
+    min-height: 100px;
+    overflow: hidden
+}
+
+.about-me .info .hobbies .content h3 {text-transform: uppercase; color: #555}
+
+.about-me .info .hobbies .content .icon {
+    float: left;
+    width: 12%;
+    margin-right: 6%;
+    margin-top: 12px
+}
+
+.about-me .info .hobbies .content .icon i {color: #2CCB6F}
+
+
+.about-me .info .hobbies .content .text {
+    float: left;
+    width: 82%
+}
+
+
+/*End About Me*/
+
+/*Start My Skills*/
+
+.my-skills {
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 50px
+}
+
+.my-skills .skills,
+.my-skills .progress {
+    width: 50%;
+    float: left
+}
+
+.my-skills .skills h2 {
+    margin: 50px 0 20px 0;
+    text-transform: uppercase;
+    color: #555
+}
+
+.my-skills .skills p {
+    margin: 10px 0 20px 0;
+    line-height: 1.6;
+    color: #888
+}
+
+.my-skills .skills button {
+    background: none;
+    color: #2CCB6F;
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #2CCB6F;
+    cursor: pointer
+}
+
+.my-skills .skills button:hover {background: #2CCB6F;color: #FFF}
+
+.my-skills .progress .tech {
+    margin: 20px 0 0 50px;
+}
+
+.my-skills .progress .tech h3 {
+    text-transform: uppercase;
+    color: #555
+}
+
+.my-skills .progress .tech div {
+    background-color: #F2F2F2;
+    height: 25px;
+}
+
+.my-skills .progress .tech div span {
+    background-color: #2CCB6F;
+    display: block;
+    height: 25px;
+    text-align: right;
+    line-height: 25px;
+    color: #FFF;
+    font-weight: bold
+}
+
+/*End My Skills*/
+
+/*Start resume*/
+
+.resume {
+    background-color: #F2F2F2;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    text-align: center
+
+}
+
+.resume h2 {
+    margin: 20px 0 20px 0;
+    text-transform: uppercase;
+    color: #555
+}
+
+.resume p {
+    margin: 10px 0 20px 0;
+    line-height: 1.6;
+    padding: 0 40px;
+    color: #888
+
+}
+
+.resume button {
+    background: none;
+    color: #2CCB6F;
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #2CCB6F;
+    cursor: pointer;
+}
+
+.resume button:hover {background: #2CCB6F;color: #FFF}
+
+/*End resume*/
+
+/*Start My Education*/
+
+.my-education {
+    overflow: hidden;
+    padding-bottom: 50px;
+    margin-top: 30px
+}
+
+.my-education .main,
+.my-education .exp {
+    width: 47.5%;
+    float: left
+}
+
+.my-education .main h2 {
+    text-transform: uppercase;
+    margin: 50px 0 20px 0;
+    color: #555
+}
+
+.my-education .main p {
+    margin: 10px 0 20px 0;
+    line-height: 1.6;
+    color: #888
+}
+
+.my-education .exp {margin-left: 5%}
+
+.my-education hr {
+    border: 1.5px solid #F2F2F2
+}
+
+.my-education .exp h3 {
+    margin: 100px 0 -10px 0;
+    text-transform: uppercase;
+    color: #555
+}
+
+.my-education .exp h5 {color: #888}
+
+.my-education .exp h5 span {font-weight: bolder}
+
+.my-education .exp p {
+    margin: 30px 0 50px 0;
+    line-height: 1.6;
+    color: #888
+}
+
+.my-education .exp div {
+    background-color: #2CCB6F;
+    width: 70px;
+    height: 25px;
+    margin-bottom: 30px;
+    line-height: 25px;
+    color: #FFF;
+    text-align: center;
+    padding: 2px
+}
+
+
+/*End My Education*/
+
+/*Start cmntr*/
+
+.cmntr {
+    background-color: #F2F2F2;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center
+}
+
+.cmntr p {
+    margin-top: 20px ;
+    padding: 0 120px;
+    line-height: 1.6;
+    color: #888;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.cmntr h5 {
+    color: #555;
+    font-size: 20px;
+    font-weight: bold
+}
+
+.cmntr ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center
+}
+
+.cmntr ul li {
+    width: 8px;
+    height: 8px;
+    border: 2px solid #2CCB6F;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%
+}
+
+.cmntr ul li.active,
+.cmntr ul li:hover {background-color: #2CCB6F}
+
+/*End cmntr*/
+
+/*Start Portfolio*/
+
+.portfolio {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-align: center
+}
+
+.portfolio .port {width: 90%; margin: auto}
+
+.portfolio h2 {
+    text-transform: uppercase;
+    margin: 20px 0 20px 0;
+    color: #555
+}
+
+.portfolio p {
+    margin: 10px 0 60px 0;
+    line-height: 1.6;
+    color: #888
+
+}
+
+.portfolio .our-work {
+    overflow: hidden
+}
+
+.portfolio .our-work > div {
+    float: left;
+    width: 33.33333%;
+    margin-bottom: 10px
+}
+
+.portfolio .our-work > div img {
+    width: 90%;
+    margin: 8px
+}
+
+/*End Portfolio*/
+
+/*Start Contact Me*/
+
+.contact-me {
+    background-color: #252F31;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+.contact-me .contact h2 {
+    text-transform: uppercase;
+    margin: 40px 0 30px 0;
+    color: #F1F1F1
+}
+
+.contact-me .contact p {
+    margin: 30px 0 30px 0;
+    line-height: 1.6;
+    color: #999
+}
+
+.contact-me .contact p span{font-weight: bold; color: #D6DBDE}
+
+.contact-me .contact,
+.contact-me .form {
+    width: 47.5%;
+    float: left
+}
+
+.contact-me .form {margin: 50px 0 50px 5%}
+
+.contact-me .form h5 {
+    color: #D6DBDE;    
+    margin-bottom: 15px
+}
+
+.contact-me .form textarea,
+.contact-me .form input[type="text"] {
+    background-color: #4B5557;
+    height: 35px;
+    margin: 0 15px 20px 0;
+    border: none;
+    width: 95%;
+    color: #FFF;
+    padding-left: 5px
+}
+
+.contact-me .form textarea {
+    height: 200px;
+}
+
+.contact-me .form input[type="submit"] {
+    color: #F1F1F1;
+    background: #191E22;
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer
+}
+
+.contact-me .form input[type="submit"]:hover {color: #191E22;background: #F1F1F1;}
+
+/*End Contact Me*/
+
+/*Start Footer*/
+
+.footer {
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #191E22;
+    color: #4B5557;
+    text-align: center;
+}
+
+.footer span {display: block}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li {
+    display: inline-block;
+    cursor: pointer;
+    margin: 3px
+}
+
+.footer ul li:hover {color: #FFF}
+
+/*End Footer*/
